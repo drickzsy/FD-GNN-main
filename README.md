@@ -8,14 +8,10 @@
 
 - CUDA 11.8+
 
-Bash
-
 ```
-# 克隆仓库
 git clone https://github.com/YourUsername/FD-GNN.git
 cd FD-GNN
 
-# 安装依赖
 pip install -r requirements.txt
 ```
 
@@ -58,4 +54,4 @@ MODEL.DEVICE_ID "('0')" \
 TEST.WEIGHT 'weights/FD_GNN_best.pth'## Acknowledgement
 ```
 
-Codebase from [Hoss-ReID](https://github.com/Alioth/Hoss-ReID).
+Code base from [Hoss-ReID](https://github.com/Alioth/Hoss-ReID).
